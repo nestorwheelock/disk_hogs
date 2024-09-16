@@ -1,0 +1,9 @@
+[package]
+name = "disk_hogs"
+description = "finds big files in parallel makes a paged report"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rayon = "1.5"
+dirs = "4.0"
